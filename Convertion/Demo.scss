@@ -1,0 +1,66 @@
+$bgcolor: lightblue;
+$textcolor: darkblue;
+$color :white;
+$fontsize: 18px;
+$margin:0;
+$padding:0;
+//
+* {
+    margin: $margin;
+    padding: $padding;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    // background: rgb(31, 9, 233);
+    background: $textcolor;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+    border: 3px solid $color;
+    background-color: red;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    margin-left: 280px;
+    margin-right: 280px;
+    box-shadow: 3px -3px 15px 25px rgba(12, 12, 12, 0.5);
+    ;
+    ;
+    ;
+    p {
+        padding: 0px 12px;
+        font-size: $fontsize;
+        font-weight: 400;
+        color: $color;
+        text-align: center;
+    }
+    input {
+        text-align: center;
+        background-color: $color;
+        border: 0px solid;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        padding: 13px 0px;
+        margin: 20px 0px;
+        font-size: $fontsize;
+        font-weight: bold;
+    }
+}
+
+input:focus {
+    outline: none;
+}
