@@ -1,0 +1,109 @@
+body {
+  background-color: rgba(255, 255, 255, 0.219);
+}
+
+nav {
+  background: rgba(51, 34, 68, 0.9333333333);
+  position: relative;
+}
+nav h3,
+nav img,
+nav ul {
+  display: inline-block;
+}
+nav ul {
+  margin-left: 580px;
+  position: absolute;
+  top: 10px;
+}
+nav ul li {
+  display: inline-block;
+  margin-left: 45px;
+  color: #fff;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+nav img {
+  margin-top: 10px;
+  margin-left: 20px;
+  border-radius: 50%;
+}
+nav h3 {
+  margin-left: 160px;
+  position: absolute;
+  top: -10px;
+  font-size: 30px;
+  color: aqua;
+  cursor: pointer;
+}
+
+.attract {
+  background: #fff;
+  margin-top: 20px;
+  position: relative;
+}
+.attract .hp,
+.attract .img-2 {
+  display: inline-block;
+}
+.attract .hp {
+  position: absolute;
+  left: 10px;
+  top: 80px;
+  height: 3px;
+}
+.attract .hp h2 {
+  font-size: 40px;
+}
+.attract .hp p {
+  font-size: 25px;
+  color: rgba(117, 115, 115, 0.993);
+}
+.attract .img-2 {
+  position: absolute;
+  right: 80px;
+  top: 10px;
+}
+.attract .img-2 img {
+  border-radius: 20px;
+}
+
+.project {
+  border: 1px solid red;
+  position: relative;
+  top: 540px;
+  margin-top: 30px;
+}
+.project .prjct-1 {
+  border: 1px solid blue;
+  margin-left: 10px;
+}
+.project .prjct-1 a {
+  text-decoration: none;
+}
+.project .prjct-2 {
+  border: 1px solid blue;
+  margin-left: 10px;
+}
+.project .prjct-2 a {
+  text-decoration: none;
+}
+.project .prjct-2 img {
+  margin-left: -8px;
+}
+.project .prjct-3 {
+  border: 1px solid blue;
+  margin-left: 10px;
+}
+.project .prjct-3 a {
+  text-decoration: none;
+}
+.project .prjct-1,
+.project .prjct-2,
+.project .prjct-3 {
+  display: inline-block;
+  margin-left: 60px;
+}/*# sourceMappingURL=rcm.css.map */

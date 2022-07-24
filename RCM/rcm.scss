@@ -1,0 +1,118 @@
+body {
+    background-color: rgba(255, 255, 255, 0.219);
+}
+
+nav {
+    background: #324e;
+    position: relative;
+    h3,
+    img,
+    ul {
+        display: inline-block;
+    }
+    ul {
+        margin-left: 580px;
+        position: absolute;
+        top: 10px;
+        ;
+    }
+    ul li {
+        display: inline-block;
+        margin-left: 45px;
+        color: #fff;
+    }
+    ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    img {
+        margin-top: 10px;
+        margin-left: 20px;
+        border-radius: 50%;
+    }
+    h3 {
+        margin-left: 160px;
+        position: absolute;
+        top: -10px;
+        font-size: 30px;
+        color: aqua;
+        // background: linear-gradient(red, blue, yellow);
+        // border-radius: 5px;
+        cursor: pointer;
+    }
+}
+
+.attract {
+    background: #fff;
+    // border: 1px solid red;
+    margin-top: 20px;
+    position: relative;
+    .hp,
+    .img-2 {
+        display: inline-block;
+    }
+    .hp {
+        position: absolute;
+        left: 10px;
+        top: 80px;
+        height: 3px;
+        h2 {
+            font-size: 40px;
+        }
+        p {
+            font-size: 25px;
+            color: rgba(117, 115, 115, 0.993);
+        }
+    }
+    .img-2 {
+        position: absolute;
+        right: 80px;
+        top: 10px;
+        img {
+            border-radius: 20px;
+        }
+    }
+}
+
+.project {
+    border: 1px solid red;
+    position: relative;
+    top: 540px;
+    margin-top: 30px;
+    .prjct-1 {
+        border: 1px solid blue;
+        margin-left: 10px;
+        ;
+        a {
+            text-decoration: none;
+        }
+    }
+    .prjct-2 {
+        border: 1px solid blue;
+        margin-left: 10px;
+        ;
+        a {
+            text-decoration: none;
+        }
+        img {
+            margin-left: -8px;
+            ;
+        }
+    }
+    .prjct-3 {
+        border: 1px solid blue;
+        margin-left: 10px;
+        ;
+        a {
+            text-decoration: none;
+        }
+    }
+    .prjct-1,
+    .prjct-2,
+    .prjct-3 {
+        display: inline-block;
+        margin-left: 60px;
+        ;
+    }
+}
