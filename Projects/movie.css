@@ -1,0 +1,235 @@
+body
+{
+    background-color: rgba(0, 0, 0, 0.884);
+}
+
+/* navbar starts */
+nav
+{
+    /* border:1px solid white; */
+    background-color: black;
+    position: fixed;
+    padding: 0px 135px 0px 30px;
+    top: 0;
+}
+nav a
+{
+    text-decoration: none;
+    margin-left: 30px;
+}
+/* nav img
+{
+   top: 50px;
+} */
+nav a button
+{
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 8px;
+    background-color: rgb(30, 30, 216);
+    color: #fff;
+}
+nav a,ul
+{
+    display: inline-block;
+}
+nav ul
+{
+    margin-left: -10px;
+}
+nav ul li
+{
+    list-style: none;
+    display: inline-block;
+}
+nav ul  a
+{
+   color: #fff;
+   margin-left: 30px;
+}
+nav ul  a  .bi-search
+{
+   margin-left: 200px;
+   font-size: 23px;
+}
+nav ul  a  .bi-person-fill
+{
+   margin-left: 20px;
+   /* border: 1px solid red; */
+   padding: 4px;
+   border-radius: 10px;
+   font-size: 20px;
+   color: rgba(255, 68, 0, 0.952);
+   background-image: linear-gradient(white,rgb(6, 188, 248));
+}
+ /* navbar endss */
+/* <!-- first image starts --> */
+
+.img-1 
+{
+   background-image:linear-gradient(yellow,yellow,yellow,yellow,rgba(143, 139, 139, 0.027),rgba(150, 143, 143, 0),rgba(0, 0, 0, 0.884));
+}
+.img-1 .f1
+{
+   width: 1300px;
+   /* border: 1px solid red; */
+   margin-left: 50px;
+   margin-top: 60px;
+  
+   
+}
+.img-1 .f2
+{
+   width: 400px;
+   /* border: 1px solid red; */
+   position: absolute;
+   top: 80px;
+   left: 80px;
+
+}
+.btn
+{
+   /* border: 1px solid red; */
+   color: #fff;
+   padding-bottom: 60px;
+   margin-left: 40px;
+   
+}
+.btn .add,.share
+{
+   display: inline-block;
+   text-align: left;
+}
+.btn .add
+{
+   /* border: 1px solid red; */
+   padding-bottom: 60px;
+   /* text-align: center; */
+}
+.btn .add h1{
+
+   font-size: 32px;
+  
+}
+.btn .add h3{
+
+   font-size: 25px;
+   font-weight: 500;
+}
+.btn .add h5{
+
+   font-size: 20px;
+   font-weight: 500;
+   word-spacing: 15px;
+}
+.btn .add p a{
+
+  color: yellow;
+  text-decoration: none;
+}
+.btn .add p {
+
+  word-spacing: 5px;
+
+}
+.btn .add .tbl 
+{
+   /* border: 1px solid red; */
+   position: relative;
+
+}
+.btn .add .tbl .c1 
+{
+   /* border: 1px solid red; */
+   padding: 30px 40px;
+   position: absolute;
+   top: -235px;
+   color: rgb(187, 183, 183);
+   font-weight: bolder;
+
+}
+.btn .add .tbl .c2
+{
+   /* border: 1px solid red; */
+   position: absolute;
+   top: -205px;
+   left: 120px;
+
+}
+.btn .add .tbl .c1,.c2
+{
+   display: inline-block;
+}
+.btn .add .play
+{
+   margin-top: 260px;
+}
+.btn .add .play .sub
+{
+  /* border: 1px solid white; */
+  /* padding: 60px 0px 15px 0px; */
+  margin-left: 10px;
+  background-color: yellow;
+  border-radius: 25px;
+}
+.btn .add .play .sub p
+{
+   margin-left: 10px;
+}
+.btn .add .play .sub button span
+{
+   margin-left: -40px;
+}
+.btn .add .play .sub button p
+{
+   font-size: 16px;
+   color: rgba(255, 255, 255, 0.849);
+}
+.btn .add .play .sub button 
+{
+   margin-left: -10px;
+   background-color: orange;
+   color: rgba(255, 255, 255, 0.849);
+   letter-spacing: 2.5px;
+   font-weight: bolder;
+}
+
+.btn .share
+{
+   /* border: 1px solid red; */
+   position: absolute;
+   right: -20px;
+   padding: 0px 20px;
+   
+}
+.btn .share h3{
+
+   font-size: 20px;
+}
+.btn .share h3 i{
+
+   margin-left: 10px;
+}
+.btn .share a
+{
+  text-decoration: none;
+  color: #fff; 
+}
+.btn button
+{
+   padding: 15px 70px;
+   border-radius: 15px;
+   font-size: 25px;
+   border: none;
+}
+.img-1 .btn
+{
+   position: absolute;
+   top: 560px;
+}
+
+
+
+/*  <!-- first image endss --> */
+ 

@@ -1,0 +1,286 @@
+body
+{
+    background-color: rgba(0, 0, 0, 0.884);
+}
+/* navbar starts */
+nav
+{
+    /* border:1px solid white; */
+    background-color: black;
+    position: fixed;
+    padding: 0px 35px 0px 30px;
+    top: 0;
+}
+nav a
+{
+    text-decoration: none;
+    /* margin-left: 10px; */
+}
+/* nav img
+{
+   top: 50px;
+} */
+nav a button
+{
+    /* margin-left: 20px; */
+    border: none;
+    border-radius: 5px;
+    padding: 5px 8px;
+    background-color: rgb(30, 30, 216);
+    color: #fff;
+}
+nav a,ul
+{
+    display: inline-block;
+}
+nav ul
+{
+    margin-left: -10px;
+}
+nav ul li
+{
+    list-style: none;
+    display: inline-block;
+}
+nav ul  a
+{
+   color: #fff;
+   margin-left: 30px;
+}
+nav ul  a  .bi-search
+{
+   margin-left: 370px;
+   font-size: 23px;
+}
+nav ul  a  .bi-person-fill
+{
+   margin-left: 20px;
+   /* border: 1px solid red; */
+   padding: 4px;
+   border-radius: 10px;
+   font-size: 20px;
+   color: rgba(255, 68, 0, 0.952);
+   background-image: linear-gradient(white,rgb(6, 188, 248));
+}
+ /* navbar endss */
+
+ /* <!-- Sign in starts --> */
+body .sign
+{
+    text-align: center;
+}
+.sign
+{
+    /* border: 1px solid red; */
+    margin-top: 120px;
+    padding-bottom: 50px;
+}
+.sign .c h1
+{
+   color: #fff;
+}
+.sign input
+{
+    border: none; 
+    font-size: 18px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 1);  
+
+}
+.sign input:focus
+{
+   outline: none;
+   background-color: rgba(0, 0, 0, 1);
+}
+.sign .no hr
+{
+    width: 350px;
+    margin-left: 450px;
+    margin-top: 20px;
+    color: #fff;
+}
+.sign .no
+{
+   /* border: 1px solid yellow; */
+   margin-right: 200px;
+
+}
+ .sign .no p
+{
+   margin-left: -25px;
+   
+}
+.sign .no p,span
+{
+   font-size: 20px;
+   color: #fff;
+}
+.sign p
+{
+   font-size: 20px;
+   color: #fff;
+   margin-top: 50px;
+}
+.sign a
+{
+   margin-left: -30px;
+   font-size: 18px;
+   color: #fff;
+}
+
+.sign .sb button
+{
+   /* border: 1px solid red; */
+   padding: 10px 50px;
+   font-size: 25px;
+   color: #fff;
+   background-color: rgba(190, 182, 182, 0.795);
+   border: none;
+   border-radius: 20px;
+   position: absolute;
+   right: 610px;
+   top: 370px;
+}
+
+
+.sign .sb button:hover
+{
+   background-color: blue;
+   color: #fff;
+}
+
+.sb .bx,.box
+{
+   /* border: 1px solid red; */
+   display: inline-block;
+   text-align: left;
+   margin-left: 20px;
+   position: absolute;
+   left: 420px;
+   padding: 30px;
+   top: 235px;
+  
+}
+.sb button,.bx,.box
+{
+   display: none;
+}
+.sb .bx
+{
+   
+   position: absolute;
+   top: 32px;
+   left: -10px;
+}
+.sb .box
+{
+   font-size: 16px;
+}
+
+body .succss
+{
+   position: absolute;
+   bottom: 300px;
+   display: none;
+}
+.succss 
+{
+   border: 1px solid grey;
+   margin-left: 380px;
+   margin-right: 380px;
+   padding: 10px 60px;
+ 
+}
+
+.succss h1
+{
+   color: white;
+   word-spacing: 15px;
+   letter-spacing: 5px;
+   text-align: center;
+}
+.succss h3
+{
+   color: white;
+   word-spacing: 10px;
+   letter-spacing: 3px;
+   text-align: center;
+}
+
+body .nosuccss
+{
+   position: absolute;
+   bottom: 300px;
+   display: none;
+}
+.nosuccss 
+{
+   border: 1px solid grey;
+   margin-left: 380px;
+   margin-right: 380px;
+   padding: 40px 60px;
+ 
+}
+.nosuccss h1
+{
+   color: white;
+   word-spacing: 15px;
+   letter-spacing: 5px;
+   text-align: center;
+}
+.nosuccss h3
+{
+   color: white;
+   word-spacing: 10px;
+   letter-spacing: 3px;
+   text-align: center;
+}
+.nosuccss .bi-arrow-left-circle
+{
+   font-size: 50px;
+   color: #fff;
+   background-color: blue;
+   border-radius: 100%;
+   position: absolute;
+   left: 260px;
+}
+
+
+body .empty
+{
+   position: absolute;
+   bottom: 300px;
+   display: none;
+}
+.empty 
+{
+   border: 1px solid grey;
+   margin-left: 380px;
+   margin-right: 380px;
+   padding: 10px 60px;
+ 
+}
+.empty h1
+{
+   color: white;
+   word-spacing: 15px;
+   letter-spacing: 5px;
+   text-align: center;
+}
+.empty h3
+{
+   color: white;
+   word-spacing: 10px;
+   letter-spacing: 3px;
+   text-align: center;
+}
+.empty .bi-arrow-left-circle
+{
+   background-color: blue;
+   border-radius: 100%;
+   position: absolute;
+   left: 20px;
+}
+ /* <!-- Sign in ends --> */
+
+ 

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>Sonyliv</title>
+    <link rel="stylesheet" href="./Signin.css">
+</head>
+<body>
+    <!-- navbar starts -->
+    <nav class="n">
+        <a href="./sonyliv.html" target="_parent">
+            <img src="./Photos/logo.webp" alt="">
+            <button>Subscribe ></button>
+        </a>
+        <ul>
+            <li><a href="">KBC</a></li>
+            <li><a href="">#WatchFree</a></li>
+            <li><a href="">TV Shows</a></li>
+            <li><a href="">Originals</a></li>
+            <li><a href="">Sports</a></li>
+            <li><a href="">Movies</a></li>
+            <li><a href="">Premium</a></li>
+            <li><a href=""><i class="bi bi-search"></i></a></li>
+            <li><a href="./Signin.html" target="_blank"><i class="bi bi-person-fill"></i></a></li>
+        </ul>
+    </nav>
+    <!-- navbar endss -->
+
+    <!-- Sign in starts -->
+    <div class="sign" id="sign">
+        <div class="c">
+            <h1>Sign in to continue</h1>
+        </div>
+        <div class="no">
+            <p>Enter your Mobile Number</p>
+            <span>+91-</span><input type="PhoneNumber" onclick="No()" minlength="10" maxlength="10" id="my_phone"
+                                    name="phone" pattern="[9]{1}[3]{1}[8]{1}[0]{1}[2]{1}[1}[3]{1}[8]{1}[4]{1}[8]{1}" 
+                                    required ><hr>
+        </div>
+        <p id="or">Or</p>
+        <a href="" id="reg">Already registered with email or Google/Facebook?</a>
+        <div class="sb">
+            <p class="box" id="box"> <input type="checkbox" class="bx" required> I am above 18 years of age and have read and hereby accept <br> the Terms of Use and Privacy Policy</p>
+            <button type="submit" id="sb" onclick="sb()" >Continue</button>
+        </div>
+    </div>
+    <div class="succss" id="sn">
+        <h1>Sign in Successfull!</h1>
+        <h3>Wel Come to SonyLiv</h3>
+    </div>
+    <div class="nosuccss" id="nsn">
+        <h1>Not a Valid Number</h1>
+        <h3>Please Enter Valid Number</h3>
+        <i class="bi bi-arrow-left-circle" id="back" onclick="back()"></i>
+    </div>
+    <div class="empty" id="empty">
+        <h1><i class="bi bi-arrow-left-circle" id="back" onclick="back()"></i>Go back</h1>
+        <h3>Please Enter Number</h3>
+    </div>
+    <!-- Sign in ends -->
+
+    <script src="./validate.js"></script>
+</body>
+</html>
